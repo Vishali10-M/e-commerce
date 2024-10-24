@@ -1,0 +1,90 @@
+.card {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.home-page {
+    text-align: center;
+    padding: 50px;
+
+}
+.comingSoon img{
+    width: 100%;
+}
+.shop-now-btn {
+    background-color: #373d43;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    width: 10%;
+}
+
+.shop-now-btn:hover {
+    background-color: #494d52;
+}
+
+.home-card {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #0056b3;
+}

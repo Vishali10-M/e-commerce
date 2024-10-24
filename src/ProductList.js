@@ -2,7 +2,7 @@ import React from 'react';
 import ProductItem from './ProductItem';
 import './ProductList.css';
 
-const ProductList = ({ products, cart, handleAddToCart, handleIncrease, handleDecrease, handleRemoveFromCart }) => {
+const ProductList = ({ products, cart, handleAddToCart }) => {
   return (
     <div className="product-grid">
       {products.map((product) => {
@@ -13,9 +13,6 @@ const ProductList = ({ products, cart, handleAddToCart, handleIncrease, handleDe
             product={product}
             cartItem={cartItem}
             handleAddToCart={handleAddToCart}
-            handleIncrease={handleIncrease}
-            handleDecrease={handleDecrease}
-            handleRemoveFromCart={handleRemoveFromCart}
           />
         );
       })}

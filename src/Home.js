@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import home from '../src/Home.jpg';
-import cardDetail from './cardDetail.jpg';
-import comingSoon from './comingSoon.png';
+import home from '../src/Image/Home.jpg';
+import cardDetail from '../src/Image/cardDetail.jpg';
+import comingSoon from '../src/Image/comingSoon.png';
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import mainCard from '../src/Image/mainCard.jpg';
 
 const Home = () => {
     return (
@@ -26,6 +27,9 @@ const Home = () => {
                     </Link>
                     </div>
                 </div>
+            </div>
+            <div className='mainCard'>
+                <img src={mainCard} alt='mainCard'/>
             </div>
             <div className='cardDetail'>
                 <img src={cardDetail} alt='cardDetail'/>

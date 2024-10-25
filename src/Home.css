@@ -22,13 +22,18 @@
     margin-bottom: 10px;
 }
 
+.mainCard{
+    display: flex;
+    justify-content: center;
+}
 .home-page {
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 
 }
 .comingSoon img{
     width: 100%;
+    margin: 20px 0;
 }
 .shop-now-btn {
     background-color: #373d43;
